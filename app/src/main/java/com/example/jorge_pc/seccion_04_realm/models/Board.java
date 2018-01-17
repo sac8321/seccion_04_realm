@@ -25,6 +25,10 @@ public class Board extends RealmObject {
     //Esto es para crear la relacion entre tablas para la DB
     private RealmList<Note> notes;
 
+    public Board(){
+
+    }
+
     public Board(String title){
         this.id= MyApplication.BoardID.incrementAndGet();
         this.title=title;
