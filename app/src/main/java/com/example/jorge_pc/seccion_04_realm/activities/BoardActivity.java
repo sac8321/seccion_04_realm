@@ -25,6 +25,7 @@ import io.realm.RealmResults;
 
 public class BoardActivity extends AppCompatActivity implements RealmChangeListener<RealmResults<Board>>,AdapterView.OnItemClickListener{
 
+
     private Realm realm;
 
     private FloatingActionButton fab;
